@@ -1,0 +1,11 @@
+--- switchbot_meter_py3.py  2020-10-21 11:50:17.182053882 +0900
++++ switchbot_meter_py3.py  2020-10-21 11:51:15.637953474 +0900
+@@ -209,7 +209,7 @@ def main():
+         for idx, val in enumerate(dev_list):
+             print(idx, val)
+
+-        dev_number = int(input("Input the device number to control:"))
++        sys.exit()
+
+         if dev_number >= len(dev_list) :
+             print("Input error, exit")
